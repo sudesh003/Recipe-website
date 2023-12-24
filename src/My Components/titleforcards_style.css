@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Dancing+Script:wght@500&family=Playfair+Display:ital@1&family=Ysabeau+SC:wght@600&display=swap');
+
+
+.allcards-heading{
+    width: 98.9vw;
+    /* border: 2px solid orangered; */
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: rgb(126 34 206);
+    background-color:white;
+    margin-bottom: 3vh;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    
+.allcards-heading{
+    display: flex;
+    width: 100vw;
+    /* border: 2px solid orangered; */
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: rgb(126 34 206);
+    background-color:white;
+    margin-bottom: 3vh;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    padding-left: 3vw;
+}
+}

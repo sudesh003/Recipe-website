@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Dancing+Script:wght@500&family=Playfair+Display:ital@1&family=Ysabeau+SC:wght@600&display=swap');
+
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to top, rgb(126, 34, 206), rgb(0, 0, 0));
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.title{
+    font-size: 5rem;
+}
+.subtitle{
+    font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+
+    .about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: linear-gradient(to top, rgb(126, 34, 206), rgb(0, 0, 0));
+        width: 100vw;
+        height: 100vh;
+        color: white;
+        font-family: 'Dancing Script', cursive;
+    }
+    
+    .title{
+        font-size: 3rem;
+    }
+    .subtitle{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(126 34 206);
+    color: white;
+    height: 10vh;
+    width: 98.9vw;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(126 34 206);
+        color: white;
+        height: 10vh;
+        width: 100vw;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}

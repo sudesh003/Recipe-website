@@ -1,0 +1,50 @@
+.readmore-fav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fav-icon{
+    display: none;
+    color: white;
+    border: none;
+    background-color: white;
+}
+.my-card {
+    width: 18rem;
+    height: 26rem;
+    box-shadow: 5px 20px 50px #818181;
+    margin-left: 1vw;
+    margin-top: 1vh;
+}
+
+.my-card-body{
+    /* border: 2px solid black; */
+    height: 20vh;
+}
+.my-card-desc{
+    /* border: 2px solid black; */
+    height: 7vh;
+}
+.readmore-fav .fav-icon svg {
+    stroke: black;
+    stroke-width: 30px;
+}
+
+@media (max-width: 768px) {
+
+    .my-card {
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        width: 18rem;
+        height: 30rem;
+        box-shadow: 5px 20px 50px #9e9d9b;
+        margin-left: 8vw;
+        margin-top: 5vh;
+        /* border: 2px solid black; */
+        /* margin-bottom: 30vh; */
+        /* padding-bottom: 30vh; */
+    }
+
+}
+

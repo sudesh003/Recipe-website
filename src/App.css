@@ -1,0 +1,32 @@
+/* styles.css */
+
+/* Webkit (Chrome, Safari, newer versions of Opera) */
+*::-webkit-scrollbar {
+  width:1.1vw;
+}
+
+*::-webkit-scrollbar-thumb {
+  /* height: 1vh; */
+  background-color: rgb(209, 209, 209); /* Adjust the color and transparency here */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.5) transparent;
+}
+
+/* IE, Edge */
+* {
+  -ms-overflow-style: none; /* Hides the scrollbar in IE and Edge */
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent; /* Make scrollbar track transparent */
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}

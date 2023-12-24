@@ -1,0 +1,36 @@
+img{
+    width: 98.9vw;
+    height: 55vh;
+    object-fit: cover;
+}
+
+.caro{
+    /* border: 2px solid aqua; */
+    width: 98.9vw;
+    margin-top: 10vh;
+}
+
+/* carousel_style.css */
+.custom-carousel {
+    width: 98.9vw; /* Set the desired width */
+    height:55vh; /* Set the desired height */
+}  
+
+@media (max-width: 768px) {
+    img{
+        width: 100vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+    
+    .caro{
+        /* border: 2px solid aqua; */
+        width: 100vw;
+    }
+    
+    /* carousel_style.css */
+    .custom-carousel {
+        width: 100vw; /* Set the desired width */
+        height:40vh; /* Set the desired height */
+    }  
+}

@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Dancing+Script:wght@500&family=Playfair+Display:ital@1&family=Ysabeau+SC:wght@600&display=swap');
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 98.9vw;
+    background-color: rgb(126 34 206);
+    color: white;
+    /* position: fixed; */
+    /* border: 2px solid green; */
+}
+
+.dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+    height: 3vh;
+    width: 2vw;
+    margin-right: 20px;
+    margin-left: 2vw;
+
+}
+#dropdown-basic-button{
+    background-color: rgb(126 34 206);
+    /* border-color: black; */
+    border: none;
+}
+
+.custom-dropdown .dropdown-menu {
+    background-color: white;
+}
+.custom-dropdown .dropdown-menu a {
+    color: rgb(126 34 206); /* Set text color to white for better visibility */
+}
+.custom-dropdown .dropdown-menu a:hover {
+    background-color:rgb(126 34 206); /* Set the background color to black when hovering */
+    color: white;
+}
+
+
+.main-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+    height: 7vh;
+    width: 15vw;
+    margin-right:7vw;
+    margin-left: 5vw;
+    font-size: 2.3rem;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+    height: 6vh;
+    width: 30vw;
+    margin-right:12vw;
+    margin-left: 0vw;
+}
+.searchbar .form-control {
+    width: 30vw;
+    background-color: white; /* Set background color to black */
+    color: black; /* Set text color to white */
+    /* border: none; Remove border */
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+    height: 6vh;
+    width: 3vw;
+    /* border-radius: 50%; */
+    margin-left:10vw;
+    margin-right: 3vw;
+    background-color:rgb(126 34 206);
+}
+.user-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.9vw;
+    height: 6vh;
+    border-radius: 60%;
+    background-color: rgb(126 34 206);
+    border: 2px solid white;
+    color: white;
+}
+
+.user-btn svg{
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+.logout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logout-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: rgb(126 34 206);
+    border: none;
+    margin-right: 2vw;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+
+
+@media (max-width: 768px) {
+    
+.navbar{
+    order: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100vw;
+    background-color: rgb(126 34 206);
+    color: white;
+    /* position: fixed; */
+    /* border: 2px solid green; */
+}
+
+.dropdown{
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    height: 3vh;
+    width: 1vw;
+    /* margin-right: 1vw; */
+    margin-left: 5vw;
+
+}
+
+
+#dropdown-basic-button{
+    background-color: rgb(126 34 206);
+    /* border-color: black; */
+    border: none;
+}
+
+.custom-dropdown .dropdown-menu {
+    background-color: white;
+}
+.custom-dropdown .dropdown-menu a {
+    color: rgb(126 34 206); /* Set text color to white for better visibility */
+}
+.custom-dropdown .dropdown-menu a:hover {
+    background-color:rgb(126 34 206); /* Set the background color to black when hovering */
+    color: white;
+}
+
+
+.main-heading{
+    order: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid #ffffff; */
+    height: 7vh;
+    width: 60vw;
+    margin-right:2vw;
+    margin-left: 2vw;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+.searchbar{
+    order: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+    height: 6vh;
+    width: 95vw;
+    margin-left: 7vw;
+}
+.searchbar .form-control {
+    width: 80vw;
+    background-color: white; /* Set background color to black */
+    color: black; /* Set text color to white */
+    /* border: none; Remove border */
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.user{
+    order: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid white; */
+    height: 6vh;
+    width: 15vw;
+    /* border-radius: 50%; */
+    margin-left:3vw;
+    margin-right: 3vw;
+    background-color:rgb(126 34 206);
+}
+.user-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+    height: 6vh;
+    border-radius: 60%;
+    background-color: rgb(126 34 206);
+    border: 2px solid white;
+    color: white;
+}
+
+.user-btn svg{
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+.logout{
+    order: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80vw;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+.logout-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: rgb(126 34 206);
+    border: none;
+    margin-right: 2vw;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+} 
